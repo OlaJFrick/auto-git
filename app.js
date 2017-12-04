@@ -5,12 +5,21 @@ const repoInfo = require("./repos-and-branches.json");
 
 // Checkout a branch and make a pull
 async function pull(repoPath, branch) {
-  const repo = simpleGit(repoPath);
-  let status = await repo.pull("origin", branch).catch(e => (err = e));
-
-  if (err) {
-    console.log("pull-error", err);
-  }
+    let repo, status, err;
+    try {
+      repo = simpleGit(repoPath);
+      await repo.checkout(branch);
+      status = await repo.pull('origin', branch);
+    } catch(e) {
+      err = e;
+    }
+    // only log changes and errors
+    if(status.files && status.files.length != 0){
+      console.log('pull-success', status);
+    }
+    if(err){
+      console.log('pull-error', err);
+    }
 }
 
 // Intervall pull all repos from github every 10 sec
