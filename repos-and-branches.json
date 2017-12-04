@@ -1,0 +1,10 @@
+[
+  { "path": "reverse-proxy", "branch": "master"},
+  { "path": "certbot-helper", "branch": "master"},
+  { "path": "mdb-server", "branch": "master"},
+  { "path": "projects", "branch": "master"},
+  { "path": "home-app", "branch": "master"},
+  { "path": "mdb-frontend", "branch": "master"},
+  { "path": "auto-git", "branch": "master"},
+  { "path": "music-quiz-project", "branch": "master"}
+]
