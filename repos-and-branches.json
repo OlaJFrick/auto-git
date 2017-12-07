@@ -1,11 +1,37 @@
 [
-    { "path": "reverse-proxy", "branch": "master" },
-    { "path": "certbot-helper", "branch": "master" },
-    { "path": "mdb-server", "branch": "master" },
-    { "path": "projects", "branch": "master" },
-    { "path": "home-app", "branch": "master" },
-    { "path": "mdb-frontend", "branch": "master" },
-    { "path": "auto-git", "branch": "master" },
-    { "path": "refreshed", "branch": "master" },
-    { "path": "music-quiz-project", "branch": "master" }
+    {
+        "path": "reverse-proxy",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart reverse-proxy --silent"]
+    },
+    {
+        "path": "certbot-helper",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart certbot-helper --silent"]
+    },
+    {
+        "path": "refreshed",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart refreshed --silent"]
+    },
+    {
+        "path": "music-quiz-project",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart music-quiz-project --silent"]
+    },
+    {
+        "path": "mdb-server",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart mdb-server --silent"]
+    },
+    {
+        "path": "mdb-frontend",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart mdb-frontend --silent"]
+    },
+    {
+        "path": "auto-git",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart auto-git --silent"]
+    }
 ]
