@@ -15,9 +15,9 @@
         "run": ["npm install", "pm2 restart refreshed --silent"]
     },
     {
-        "path": "refreshed-simple",
+        "path": "refreshedv2",
         "branch": "master",
-        "run": ["npm install", "pm2 restart ref --silent"]
+        "run": ["npm install", "pm2 restart refreshedv2 --silent"]
     },
     {
         "path": "music-quiz-project",
