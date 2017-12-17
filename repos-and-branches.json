@@ -10,14 +10,19 @@
         "run": ["npm install", "pm2 restart certbot-helper --silent"]
     },
     {
+        "path": "home-app",
+        "branch": "master",
+        "run": ["npm install", "pm2 restart home-app --silent"]
+    },
+    {
         "path": "refreshed",
         "branch": "master",
         "run": ["npm install", "pm2 restart refreshed --silent"]
     },
     {
-        "path": "music-quiz-project",
+        "path": "projects",
         "branch": "master",
-        "run": ["npm install", "pm2 restart music-quiz-project --silent"]
+        "run": ["npm install", "pm2 restart projects --silent"]
     },
     {
         "path": "mdb-server",
