@@ -15,7 +15,7 @@
         "run": ["npm install", "pm2 restart home-app --silent"]
     },
     {
-        "path": "refreshed",
+        "path": "refreshed.se",
         "branch": "master",
         "run": ["npm install", "pm2 restart refreshed --silent"]
     },
