@@ -45,7 +45,7 @@
         "run": ["npm install", "pm2 restart auto-git --silent"]
     },
     {
-        "path": "skaneus",
+        "path": "skaneus.se",
         "branch": "master",
         "run": ["npm install", "pm2 restart auto-git --silent"]
     }
