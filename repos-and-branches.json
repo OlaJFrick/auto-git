@@ -50,7 +50,7 @@
         "run": ["npm install", "pm2 restart auto-git --silent"]
     },
     {
-      "path": "quiz-server",
+      "path": "oddhill-quiz-client",
       "branch": "master",
       "run": ["npm install", "pm2 restart auto-git --silent"]
   }
