@@ -1,57 +1,57 @@
 [
-    {
-        "path": "reverse-proxy",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart reverse-proxy --silent"]
-    },
-    {
-        "path": "certbot-helper",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart certbot-helper --silent"]
-    },
-    {
-        "path": "home-app",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart home-app --silent"]
-    },
-    {
-        "path": "refreshed.se",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart refreshed --silent"]
-    },
-    {
-        "path": "projects",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart projects --silent"]
-    },
-    {
-        "path": "mdb-server",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart mdb-server --silent"]
-    },
-    {
-        "path": "mdb-frontend",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart mdb-frontend --silent"]
-    },
-    {
-        "path": "quiz",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart quiz --silent"]
-    },
-    {
-        "path": "auto-git",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart auto-git --silent"]
-    },
-    {
-        "path": "skaneus.se",
-        "branch": "master",
-        "run": ["npm install", "pm2 restart auto-git --silent"]
-    },
-    {
-      "path": "oddhill-quiz-client",
-      "branch": "master",
-      "run": ["npm install", "pm2 restart auto-git --silent"]
+  {
+    "path": "reverse-proxy",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart reverse-proxy --silent"]
+  },
+  {
+    "path": "certbot-helper",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart certbot-helper --silent"]
+  },
+  {
+    "path": "home-app",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart home-app --silent"]
+  },
+  {
+    "path": "refreshed.se",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart refreshed --silent"]
+  },
+  {
+    "path": "projects",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart projects --silent"]
+  },
+  {
+    "path": "mdb-server",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart mdb-server --silent"]
+  },
+  {
+    "path": "mdb-frontend",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart mdb-frontend --silent"]
+  },
+  {
+    "path": "quiz",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart quiz --silent"]
+  },
+  {
+    "path": "auto-git",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart auto-git --silent"]
+  },
+  {
+    "path": "skaneus.se",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart skaneus.se --silent"]
+  },
+  {
+    "path": "oddhill-quiz-client",
+    "branch": "master",
+    "run": ["npm install", "pm2 restart oddhill-quiz-client --silent"]
   }
 ]
